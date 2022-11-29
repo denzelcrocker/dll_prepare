@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern "C" __declspec(dllimport) int DLLMain(int, int);
-int DLLMain(int , int )
+extern "C" __declspec(dllimport) void DLLMain(int);
+void DLLMain(int)
 {
-	printf("dfb");
-	return 0;
+	system("chcp 1251>nul");
+	printf("оооо");
 }
