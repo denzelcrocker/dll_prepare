@@ -6,6 +6,6 @@
 extern "C" __declspec(dllimport) int DLLMain(int, int);
 int DLLMain(int , int )
 {
-	printf("оно работает");
+	printf("dfb");
 	return 0;
 }
